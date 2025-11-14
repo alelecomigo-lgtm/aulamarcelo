@@ -1,0 +1,13 @@
+fastapi
+
+sqlalchemy
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic[email]
+python-multipart
+pydantic
+requests
+passlib
+psycopg2-binary
+bs4
+
