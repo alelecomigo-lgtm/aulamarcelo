@@ -6,8 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine, Column, Integer, String, Boolean, DECIMAL
 
-#DATABASE_URL = "postgresql://admin:JVoBXtBaUS2dQA0didZETSh8lonxCbBI@dpg-d496ttje5dus73cj2b1g-a/bdkayham"
-DATABASE_URL = "postgresql://admin:JVoBXtBaUS2dQA0didZETSh8lonxCbBI@dpg-d496ttje5dus73cj2b1g-a.oregon-postgres.render.com/bdkayham"
+DATABASE_URL = "postgresql://admin:N3ggq9r65Yx15dUZ4kC5m7lyNzoLJeHD@dpg-d4b9ks75r7bs7391csug-a.oregon-postgres.render.com/dbalexandre"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, 

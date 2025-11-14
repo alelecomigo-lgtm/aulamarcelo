@@ -4,10 +4,10 @@ import time
 import csv
 import psycopg2
 
-DB_HOST = "dpg-d496ttje5dus73cj2b1g-a.oregon-postgres.render.com"
-DB_NAME = "bdkayham"
+DB_HOST = "dpg-d4b9ks75r7bs7391csug-a.oregon-postgres.render.com"
+DB_NAME = "dbalexandre"
 DB_USER = "admin"
-DB_PASS = "JVoBXtBaUS2dQA0didZETSh8lonxCbBI"  
+DB_PASS = "N3ggq9r65Yx15dUZ4kC5m7lyNzoLJeHD"  
 DB_PORT = "5432"
 
 def inserir_livro(dados: dict):
